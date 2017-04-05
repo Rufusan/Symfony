@@ -20,8 +20,16 @@ class KrystianController extends Controller
      */
     public function showAction($someName)
     {
+        $notes = [
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+            'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'Ut enim ad minim veniam'
+        ];
+
+
         return $this->render('krystian/show.html.twig', [
-            'name' => $someName
+            'name' => $someName,
+            'notes' => $notes
         ]);
 
     }
