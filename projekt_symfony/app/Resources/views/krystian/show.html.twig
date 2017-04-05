@@ -1,7 +1,12 @@
-<h1>Krystian {{ name }}</h1>
+{% extends 'base.html.twig' %}
+
+{% block title  %}Strona testowa {{ name }}{% endblock %}
+{% block body %}
+<h1>Krystian -{{ name }}</h1>
 
 <ul>
     {% for note in notes %}
         <li>{{ note }}</li>
     {% endfor %}
 </ul>
+{% endblock %}
