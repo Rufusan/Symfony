@@ -20,12 +20,10 @@ class KrystianController extends Controller
      */
     public function showAction($someName)
     {
-        $templating = $this->container->get('templating');
-        $html = $templating->render('krystian/show.html.twig', [
+        return $this->render('krystian/show.html.twig', [
             'name' => $someName
         ]);
 
-        return new Response($html);
     }
 }
 
