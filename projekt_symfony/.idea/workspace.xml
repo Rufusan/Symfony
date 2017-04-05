@@ -30,13 +30,10 @@
       <file leaf-file-name="KrystianController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/KrystianController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="272">
+              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="e#126#185#0#PHP" expanded="true" />
-                <marker date="1491408632337" expanded="true" signature="377:481" ph="..." />
-                <marker date="1491408632337" expanded="true" signature="383:430" ph="..." />
-                <marker date="1491408632337" expanded="true" signature="383:474" ph="..." />
               </folding>
             </state>
           </provider>
@@ -290,12 +287,12 @@
       <workItem from="1491407008825" duration="373000" />
       <workItem from="1491407392868" duration="516000" />
       <workItem from="1491407920399" duration="317000" />
-      <workItem from="1491408248604" duration="384000" />
+      <workItem from="1491408248604" duration="1553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1590000" />
+    <option name="totallyTimeSpent" value="2759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,9 +343,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#126#185#0#PHP" expanded="true" />
-            <marker date="1491408632337" expanded="true" signature="377:481" ph="..." />
-            <marker date="1491408632337" expanded="true" signature="383:430" ph="..." />
-            <marker date="1491408632337" expanded="true" signature="383:474" ph="..." />
           </folding>
         </state>
       </provider>
@@ -362,13 +356,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/KrystianController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="272">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="e#126#185#0#PHP" expanded="true" />
-            <marker date="1491408632337" expanded="true" signature="377:481" ph="..." />
-            <marker date="1491408632337" expanded="true" signature="383:430" ph="..." />
-            <marker date="1491408632337" expanded="true" signature="383:474" ph="..." />
           </folding>
         </state>
       </provider>

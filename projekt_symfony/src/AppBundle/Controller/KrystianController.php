@@ -15,11 +15,12 @@ use Symfony\Component\HttpFoundation\Response;
 class KrystianController
 {
     /**
-     * @Route("/krystian")
+     * @Route("/krystian/{someName}")
      */
-    public function showAction()
+    public function showAction($someName)
     {
-        return new Response("<htmL><body><center><h1>Witaj Krystianie!</h1>
-        <h2>Czeka Cię piękny dzień!</h2></center></body></htmL>");
+        return new Response('Witaj '.$someName);
     }
 }
+
+?>
