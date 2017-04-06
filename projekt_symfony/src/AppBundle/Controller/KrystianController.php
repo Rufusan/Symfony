@@ -9,8 +9,10 @@
 namespace AppBundle\Controller;
 
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 
 class KrystianController extends Controller
@@ -20,18 +22,29 @@ class KrystianController extends Controller
      */
     public function showAction($someName)
     {
-        $notes = [
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-            'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'Ut enim ad minim veniam'
-        ];
-
-
         return $this->render('krystian/show.html.twig', [
             'name' => $someName,
-            'notes' => $notes
         ]);
 
+    }
+
+    /**
+     * @Route("/krystian/{someName}/notes")
+     * @Method("GET")
+     */
+    public function getNotesAction()
+    {
+        $notes = [
+            ['id' => 1, 'username' => 'Aqua', 'avatarUri' => '/images/leanna.jpeg', 'note' => 'Some notes about Octopus', 'date' => 'Apr. 6, 2017'],
+            ['id' => 2, 'username' => 'Aqua2', 'avatarUri' => '/images/leanna.jpeg', 'note' => 'Some notes about Octopus', 'date' => 'Apr. 6, 2017'],
+            ['id' => 3, 'username' => 'Aqua3', 'avatarUri' => '/images/leanna.jpeg', 'note' => 'Some notes about Octopus', 'date' => 'Apr. 6, 2017'],
+        ];
+
+        $data = [
+            'notes' => $notes,
+        ];
+
+        return new JsonResponse($data);
     }
 }
 
